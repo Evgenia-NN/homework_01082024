@@ -6,23 +6,21 @@
 
 .container {
     width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.item {
-    display: flex;
+.card {
     width: 350px;
     background-color: rgb(235, 235, 235);
-    align-self: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
+    list-style-type: none;
 }
 
-.items {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    
-}
+
 
 .text {
     padding: 10px 15px 15px 15px;
