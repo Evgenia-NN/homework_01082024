@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+}
+
+.item {
+    display: flex;
+    width: 350px;
+    background-color: rgb(235, 235, 235);
+    align-self: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    
+}
+
+.text {
+    padding: 10px 15px 15px 15px;
+    text-align: justify;
+}
+
+.header {
+    padding: 15px 15px 0px 15px;
+}
